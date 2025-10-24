@@ -9,7 +9,7 @@ export default function SecondWidget() {
     "/img.webp",
   ]);
 
-  const [isClick, setIsClick] = useState(false)
+
 
 
   
@@ -34,7 +34,7 @@ export default function SecondWidget() {
   
 
   const scroll = (direction: "left" | "right") => {
-    setIsClick(true)
+ 
    if (scrollRef.current) {
      const scrollAmount = 300; 
      scrollRef.current.scrollBy({
@@ -43,7 +43,7 @@ export default function SecondWidget() {
      });
    }
     
-    setIsClick(false)
+   
  };
 
   return (
