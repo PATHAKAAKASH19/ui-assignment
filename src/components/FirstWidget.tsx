@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, act } from "react";
+import { useState, useEffect } from "react";
 
 export default function FirstWidget() {
   const [activeTab, setActiveTab] = useState("aboutMe");
